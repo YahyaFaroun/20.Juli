@@ -1,0 +1,55 @@
+$firstColor: #f79b11;
+$secondColor: #69f2fb;
+$thirdColor: #d41a1a;
+$fourthColor: #e610db;
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg, $firstColor 12.50%, $secondColor 12.50%, $thirdColor 25%, $fourthColor 25%, $thirdColor 37.50%, $fourthColor 37.50%, $fourthColor 50%, $firstColor 50%, $firstColor 62.50%, $secondColor 62.50%, $secondColor 75%, $thirdColor 75%, $thirdColor 87.50%, $fourthColor 87.50%, $fourthColor 100%);
+
+    
+   
+    header{
+        height: 50px;
+        padding-left: 10px;
+        }
+
+    main{
+        div{
+        
+            width: 150px;
+            height: 150px;
+            background: $firstColor;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 17vh;
+            right: 20.5%;
+            border: 1px solid #fff;
+            z-index: 4;s
+            h2{
+                color: #fff;
+                font-size: 6rem;
+                font-weight: 400;
+            }
+        }
+        h1{
+            color: #fff;
+            font-size: 14rem;
+            font-weight: 400;
+            margin: 0;
+        }
+        h3{
+            color: #fff;
+            font-size: 4rem;
+            font-weight: 40;
+            margin: 0;
+        }
+    }
+        }
+    
+
+
